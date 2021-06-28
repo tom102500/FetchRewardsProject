@@ -2,7 +2,7 @@
 
 This project is for Fetch Rewards Coding Exercise on https://fetch-hiring.s3.amazonaws.com/SDET/FetchRewards_Coding_Exercise_SDET.pdf
 
-@Author Ning Yuan - nyuan102500@gmail.com
+
 
 ## Installation
 
@@ -62,3 +62,8 @@ First clone this repo to you local.
     
     ![Alt text](https://github.com/tom102500/FetchRewardsProject/blob/main/RunTestNG.png?raw=true)
       
+
+## Author
+Ning Yuan
+
+Please reach to email: nyuan102500@gmail.com for any further questions.
