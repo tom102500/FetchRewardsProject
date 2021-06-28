@@ -2,6 +2,7 @@ package com.fetchrewards.automation;
 
 import com.fetchrewards.automation.frontend.BaseClass;
 import com.fetchrewards.automation.frontend.HomePage;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -87,5 +88,10 @@ public class FetchRewardsWebActionChallenge2 extends BaseClass{
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
+    }
+
+    @AfterClass
+    public void tearDown(){
+        driver.close();
     }
 }

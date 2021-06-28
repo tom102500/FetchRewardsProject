@@ -8,18 +8,22 @@ This project is for Fetch Rewards Coding Exercise on https://fetch-hiring.s3.ama
 
 Before run this project, please make to go through the following installation process.
 1. Please make sure [chrome](https://www.google.com/chrome/) is installed.
-2. Please make sure either maven or Intellij is installed.
+2. Please make sure jdk set up correctly. To [set up jdk 8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html).
+3. Please make sure either maven or Intellij is installed.
 
 
 To Install Maven:
-  a. If you have [Homebrew](https://brew.sh/), please open terminal 
+
+  a. For mac user, you can use [Homebrew](https://brew.sh/) to install, please open terminal 
 
 and enter
       ```bash
       brew install maven
       ```
 
-  b. Or you can install maven following this [Install Maven](https://maven.apache.org/install.html)
+  b. Or you can download [maven download](https://maven.apache.org/download.cgi). 
+
+  And following this doc to [Install Maven](https://maven.apache.org/install.html).
   
   
 To Install Intellij: [Download Intellij](https://www.jetbrains.com/idea/download/#section=mac)
@@ -62,6 +66,38 @@ First clone this repo to you local.
     
     ![Alt text](https://github.com/tom102500/FetchRewardsProject/blob/main/RunTestNG.png?raw=true)
       
+
+## Expected Behavior
+
+TEST FetchRewardsAlgorithmChallenge1: 
+
+It will simulate 3 round of process of finding the fake gold bar among 9 gold bars.
+
+Sample result:
+![Alt text](https://github.com/tom102500/FetchRewardsProject/blob/main/Challenge1Result.png?raw=true)
+
+
+
+
+TEST FetchRewardsWebActionChallenge2:
+
+It will perform all the web actions in challenge2.
+
+Sample result:
+![Alt text](https://github.com/tom102500/FetchRewardsProject/blob/main/Challenge2Result.gif?raw=true)
+
+
+
+
+
+TEST FetchRewardsChallenge3:
+
+It will perform actions in challenge3.
+
+Sample result:
+![Alt text](https://github.com/tom102500/FetchRewardsProject/blob/main/Challenge3Result.gif?raw=true)
+
+
 
 ## Author
 Ning Yuan
