@@ -17,9 +17,9 @@ To Install Maven:
   a. For mac user, you can use [Homebrew](https://brew.sh/) to install, please open terminal 
 
 and enter
-      ```bash
-      brew install maven
-      ```
+```bash
+brew install maven
+```
 
   b. Or you can download [maven download](https://maven.apache.org/download.cgi). 
 
